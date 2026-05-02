@@ -38,40 +38,45 @@
 .career-info-box {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  width: 100%;
 }
 .career-info-box p {
-  width: 40%;
-  font-size: 18px;
+  width: 50%;
+  font-size: 16px;
   font-weight: 300;
+  line-height: 1.6;
   margin: 0;
+  color: #adacac;
 }
 .career-info-in {
   display: flex;
+  flex-direction: column;
   width: 40%;
-  justify-content: space-between;
-  gap: 50px;
+  justify-content: flex-start;
+  gap: 15px;
 }
 .career-info h3 {
-  font-size: 48px;
+  font-size: 36px;
   margin: 0;
-  font-weight: 500;
-  line-height: 45px;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .career-info h4 {
-  font-size: 33px;
-  line-height: 30px;
-  letter-spacing: 0.8px;
-  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  font-weight: 600;
   margin: 0;
+  color: #fff;
 }
 .career-info h5 {
   font-weight: 400;
-  letter-spacing: 0.7px;
-  font-size: 20px;
-  text-transform: capitalize;
-  margin: 10px 0px;
+  font-size: 18px;
+  text-transform: none;
+  margin: 0;
   color: var(--accentColor);
 }
 .career-timeline {
